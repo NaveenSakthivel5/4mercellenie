@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import Header from "./header";
+import Home from "./home";
+import Contact1 from "./Contact";
+import About from "./About";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Features from './Features';
+import VideoOverlay from "./BlendVideo";
+import VideoComponent from "./VideoBike";
+import Blend from './blend'
+import Battery from "./battery";
+import BatteryRotation from './batteryrotation';
+import Gear from "./gear";
+import Section from "./section";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundColor:"black"}}>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact1 />} />
+        </Routes>
+      </Router>
+      {/* <Section /> */}
+      {/* <BatteryRotation /> */}
+      {/* <Battery /> */}
+      {/* <VideoOverlay /> */}
+      {/* <VideoComponent /> */}
+      {/* <Blend /> */}
+      {/* <Features /> */}
+      {/* <Gear /> */}
+
     </div>
   );
 }

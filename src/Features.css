@@ -1,0 +1,114 @@
+.Bikefront-images {
+  width: 100%;
+}
+.bike-flex {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 5%;
+}
+
+.bike-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adjust based on your layout */
+}
+.bike-information {
+  color: white;
+}
+.bike-box {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  font-size: 16px;
+  background-color: #171717; /* Light background color to contrast the black container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bike-box1 {
+  position: absolute;
+  top: 40%;
+  right: 18%;
+  font-size: 16px;
+  background-color: #171717; /* Light background color to contrast the black container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bike-box2 {
+  position: absolute;
+  top: 7%;
+  right: 12%;
+  font-size: 16px;
+  background-color: #171717; /* Light background color to contrast the black container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bike-box3 {
+  position: absolute;
+  top: 55%;
+  right: 15%;
+  font-size: 16px;
+  background-color: #171717; /* Light background color to contrast the black container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bike-icon img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  margin-bottom: 10px;
+}
+.bike-details {
+  color: white;
+  font-family: "FontMedium";
+}
+/* Center the timeline at the bottom */
+.timeline {
+  position: absolute; /* Position it at the bottom center */
+  bottom: 20px; /* Adjust distance from the bottom */
+  left: 50%; /* Position left at 50% */
+  transform: translateX(-50%); /* Center horizontally */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  width: 60%; /* Reduce the width of the timeline */
+  height: 20px; /* Height of the timeline */
+}
+.line {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  height: 2px; /* Thickness of the line */
+  background-color: yellow; /* Color of the filled line */
+  transform: translateY(-50%); /* Center the line vertically */
+  z-index: 1; /* Ensure the line is below the circles */
+  transition: width 0.5s ease; /* Smooth transition for line fill */
+}
+.edge-point {
+  position: absolute;
+  width: 15px; /* Diameter of the circle */
+  height: 15px; /* Diameter of the circle */
+  background-color: white; /* Default color */
+  border-radius: 50%; /* Make it a circle */
+  cursor: pointer; /* Pointer on hover */
+  z-index: 2; /* Ensure the circles are above the line */
+  transform: translate(-50%, -50%); /* Center the circles */
+  transition: background-color 0.3s; /* Smooth transition for color change */
+}

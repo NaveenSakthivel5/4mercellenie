@@ -1,0 +1,70 @@
+/* .gear-container {
+  background-color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.gear-heading {
+  width: 100%;
+  position: relative;
+}
+
+.gear-power {
+  width: 100%;
+  height: 56%;
+  background-image: url("./assets/Power.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: transform 0.3s ease-out;
+}
+
+.gear2 {
+  display: flex;
+  justify-content: center;
+}
+
+.gear-pic {
+  width: 50%;
+  transition: transform 0.5s ease;
+}
+
+.gear-text {
+  text-align: center;
+}
+
+.gear-para {
+  color: #ffdd33;
+  margin: 0;
+  padding-top: 6%;
+  font-family: "FontRegular";
+}
+
+.font-watt {
+  font-family: "FontLight";
+  font-size: 70px;
+}
+
+.kilowatt-space {
+  font-size: 40px;
+  font-family: "FontLight";
+}
+
+.gear-setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 1rem;
+  padding-top: 10%;
+}
+
+.gear-watt,
+.gear-torque {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "JetBrains Mono", monospace;
+} */

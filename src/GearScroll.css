@@ -1,0 +1,10 @@
+.gear-scroll-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gear-image {
+  transition: transform 0.1s ease;
+  z-index: 1;
+  margin-top: 0vh;
+}
